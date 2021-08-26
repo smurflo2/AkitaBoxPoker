@@ -1,0 +1,12 @@
+button {
+  margin-top: 20px;
+}
+
+.hidden {
+  display: none;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}

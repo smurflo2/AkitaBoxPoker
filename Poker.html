@@ -1,0 +1,21 @@
+<h1>Let's play poker</h1>
+
+<div>
+  <label for="poker-hand-input">Enter hand (e.g. "10h Jh Qh Kh Ah"):</label>
+  <input id="poker-hand-input" name="poker-hand-input" type="text">
+</div>
+
+<button onClick="evaluateHand()">Evaluate</button>
+
+<div id="result-div" class="hidden">
+  <h2>You've got a...</h2>
+
+  <p id="result-text"></p>
+</div>
+
+<div id="error-div" class="hidden">
+  <h2>Invalid Hand:</h2>
+
+  <p id="error-text"></p>
+  
+</div>
